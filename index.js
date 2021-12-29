@@ -17,7 +17,7 @@ class backend {
     }
 
     loadProfile(profileId) {
-        return JSON.parse(fs.readFileSync(`${this.directory}/config_template/profile/profile_${profileId}.json`));
+        return JSON.parse(fs.readFileSync(`${this.directory}/cache/templates/profile_${profileId}.json`));
     };
 
     async updateAthena() {
