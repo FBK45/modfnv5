@@ -1,6 +1,6 @@
 module.exports = {
     host: 'localhost',
-    port: 5595,
+    port: 8080,
     directory: __dirname,
     dir: __dirname,
     season_num: 19, // Update this whenever there is a new season.
